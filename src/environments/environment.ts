@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyAVOd1ghMJbZbm14fkxcx48ziNynOYd2ZM",
+    authDomain: "gallifreylabs.firebaseapp.com",
+    databaseURL: "https://gallifreylabs.firebaseio.com",
+    projectId: "gallifreylabs",
+    storageBucket: "gallifreylabs.appspot.com",
+    messagingSenderId: "1032571372994",
+    appId: "1:1032571372994:web:601d63d9a308aebdb5c25b"
+  }
 };
 
 /*

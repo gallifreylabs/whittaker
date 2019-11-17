@@ -1,0 +1,14 @@
+<div>
+  <div class="file" *ngIf="beforeUpload">
+    <label class="file-label">
+    <input class="file-input" type="file" (change)="uploadFile($event)">
+      <span class="file-cta">
+        <span class="file-icon">
+          <i class="fa fa-upload"></i>
+        </span>
+      </span>
+    </label>
+  </div>
+</div>
+
+<button (click)="test()">test</button>
